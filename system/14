@@ -1,0 +1,2 @@
+You can either append "&" to the end of a command to make it run in the background. If you've already
+started the command, you can press ctrl-z to suspend it, then "bg" to put it in the background.

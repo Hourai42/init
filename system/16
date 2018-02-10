@@ -1,0 +1,2 @@
+Cron. It's a system service that runs in the background and checks for scheduled tasks, then executes 
+them if it finds any. 

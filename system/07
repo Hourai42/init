@@ -1,0 +1,4 @@
+cat /var/run/sshd.pid
+
+For some reason, mine is "/usr/sbin/minissdpd", meaning that instead of doing 
+cat /var/run/sshd.pid or cat /var/run/ssh.pid, I have to "cat /var/run/minissdpd.pid" for 769. 

@@ -1,0 +1,4 @@
+/etc/debian_version
+
+You can cat this file to see which debian version you have installed, or cat /etc/issue(however, 
+this doesn't show the most recent releases like the former command does). 

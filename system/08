@@ -1,0 +1,12 @@
+Well, you create a RSA key through "ssh-keygen", then you enter a file in which to save the key.
+On my Debian machine, it's "/home/ted/.ssh/id_rsa", meaning "~/.ssh/id_rsa". Then if I name the file
+"potato", it'll create a file "potato" and "potato.pub" in the home directory(~). Then you can
+cat the potato or potato.pub files to view the RSA key. So essentially, cat ~/potato or cat ~/potato.pub 
+works as well.
+
+potato for the private key and potato.pub for the public key, of course.
+
+**In older SSH versions, keys are stored in ~/.ssh/identity and ~/.ssh/identity.pub, while in newer ones, 
+they're stored in ~/.ssh/id_rsa and ~/.ssh/id_rsa.pub if no name is given.
+
+So you can either "cat ~/.ssh/id_rsa.pub for the public key and cat ~/.ssh/id_rsa for the private key".    

@@ -1,0 +1,6 @@
+reboot
+
+Or "sudo reboot" if you're not logged in as root. 
+
+The above reboots the entire system. The question is vaguely worded-- if it meant to name the command
+to reboot the SSH service, then it's "sudo systemctl restart ssh"

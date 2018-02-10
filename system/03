@@ -1,0 +1,3 @@
+The file that has to be modified to make a name change permanent is "/etc/hostname".
+You may also need to edit the /etc/hosts file as well. 
+Then after that, you simply restart your system. 

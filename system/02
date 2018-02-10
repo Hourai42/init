@@ -1,0 +1,6 @@
+hostname [name]
+
+Be aware that you have to be the "root" user on a Debian system to do this. You log in as root by
+typing in "su" then entering the administrator password. 
+
+ 

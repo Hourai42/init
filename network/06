@@ -1,0 +1,9 @@
+Well, when I nslookup my ip address at this computer (10.112.7.26), 
+it gives me this as a result. 
+
+Server:		10.51.1.253
+Address:	10.51.1.253#53
+
+26.7.112.10.in-addr.arpa	name = e1z2r7p26.42.us.org.
+
+The IP address of the DNS server used in my case is 10.51.1.253. 

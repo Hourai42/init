@@ -1,0 +1,1 @@
+netstat -r -n | grep -w default | sed -e 's/.*default \(.*\) UG.*/\1/' | tr -d ' '

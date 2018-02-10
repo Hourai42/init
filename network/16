@@ -1,0 +1,13 @@
+I'm assuming to make the 46.19.122.85 address reroute to 
+intra.42.fr, I'll have to edit the /etc/hosts file(in which I do not have
+any write permissions) and set 46.19.122.85 to intra.42.fr. 
+
+So the setup of the file is
+ 
+127.0.0.1       localhost
+255.255.255.255 broadcasthost
+::1             localhost
+
+10.51.1.38 	cdn.intra.42.fr
+
+So possibly changing 10.51.1.38 to 46.19.122.85 would do the job. 

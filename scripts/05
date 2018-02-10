@@ -1,0 +1,4 @@
+#!/bin/bash
+# A fucking script.
+
+echo "42"

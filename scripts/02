@@ -1,8 +1,13 @@
 #!/bin/bash
 # Second
+# To get to run once a week at 4 am, you'll need to use crontab.
+# You do this by using the command "crontab -e" to edit your crontabs.
+# Then you do 0 4 * * 5. This means that every Friday at 4 am, the script runs.
+# 0 for min, 4 for hours, * for day of month, * for months, 5 for day of week.
+# After that, it's /bin/execute/[path to script]/[name of script]
 
 apt-get update
-apt-get dist-upgrade > /var/log/update_script.log
+apt-get dist-upgrade >> /var/log/update_script.log
 sleep 10s
 echo "y"
 apt-get clean

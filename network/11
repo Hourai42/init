@@ -5,3 +5,5 @@ ifconfig that network device(en0) -- will give me its IP address.
 grep -w inet | sed -e 's/.*inet \(.*\)netmask.*/\1/' -- will grab specifically the IPv4 address and remove the rest. 
 
 So the network device being used to connect to the outside world is (en0) and its IP address is 10.112.7.26.  
+------------------------------------------------------------------------------------------------------------------------
+Never mind, FUCK all of the above. The correct answer is "NAT SERVER". 

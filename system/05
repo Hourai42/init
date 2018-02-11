@@ -2,3 +2,7 @@ ps -aux | grep ssd
 
 Or "ps -ef | grep ssd"
 The one that's running has "/usr/sbin/xxxx" after it. 
+
+------------------------------
+
+The correct way to do this is to use "systemcl status ssh". 

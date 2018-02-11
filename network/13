@@ -3,3 +3,5 @@ curl -I 10.51.1.253 | grep Server | sed 's/^.*: //'
 When I do this to attempt to check the server type, I get the message "curl: (7) Failed to connect to 10.51.1.253 port 80: Connection refused"
 in response. I'm assuming the 10.51.1.253 address isn't reachable from my computer despite the fact that ping worked. This would mean that
 the server is reachable on specific ports, but something is blocking the ICMP echoes on other ports. 
+
+Anyhow, the server is "DHCP"

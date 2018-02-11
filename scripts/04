@@ -1,0 +1,24 @@
+#!/bin/bash
+# Fourth
+# To get this to run everyday at midnight, you'll need to use crontab.
+# crontab -e to edit crontabs
+# 0 0 * * * to run this task everyday at midnight.
+# As usual, it's /bin/execute/[path to script]/[name of script]
+# Hmm... I guess I'll run this task once a day at midnight to make sure it's on,
+# but keep it running 24/7 otherwise until the file is modified?
+# After crontab -e, I'll use the MAILTO option by setting MAILTO=myemail@gmail.com
+
+filename=/etc/crontab
+
+m1=$(md5sum "$filename")
+
+while true; do
+	sleep 1
+
+	m2=$(md5sum "$filename")
+	
+	if [ "$m1" != "$m2" ] ; then
+		mail -s "/etc/crontab file was modified"
+		exit 1
+	fi
+done
